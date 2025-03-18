@@ -1,0 +1,5 @@
+<resources>
+    <style name="Theme.BT_Tuan3_1" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+</resources>
