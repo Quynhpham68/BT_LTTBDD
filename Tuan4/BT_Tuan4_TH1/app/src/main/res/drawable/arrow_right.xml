@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Nền đen -->
+    <path
+        android:fillColor="@color/black"
+        android:pathData="M4,12 A8,8 0,0,1 12,4 H36 A8,8 0,0,1 44,12 V36 A8,8 0,0,1 36,44 H12 A8,8 0,0,1 4,36 Z"/>
+
+    <!-- Mũi tên màu trắng -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M18,12l6,6l-6,6"
+        android:strokeWidth="3"
+        android:strokeColor="@color/white"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+</vector>
