@@ -64,17 +64,21 @@ fun LoginScreen(auth: FirebaseAuth, googleSignInClient: GoogleSignInClient, navC
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         // Spacer để đẩy nội dung xuống giữa màn hình
-        Spacer(modifier = Modifier.weight(1f))
+        Spacer(modifier = Modifier.height(100.dp))
 
         // Logo
-        Image(painter = painterResource(R.drawable.logo), contentDescription = "Logo")
+        Image(
+            painter = painterResource(R.drawable.logo),
+            contentDescription = "Logo",
+            modifier = Modifier.size(200.dp) // Điều chỉnh kích thước theo nhu cầu
+        )
         Spacer(modifier = Modifier.height(16.dp))
 
         // App Name and Tagline
         Text("SmartTasks", fontSize = 24.sp, fontWeight = FontWeight.Bold, color = Color(0xFF007AFF))
         Text("A simple and efficient to-do app", fontSize = 14.sp, color = Color(0xFF007AFF))
 
-        Spacer(modifier = Modifier.height(32.dp)) // Tạo khoảng cách lớn hơn để căn giữa
+        Spacer(modifier = Modifier.height(120.dp)) // Tạo khoảng cách lớn hơn để căn giữa
 
         // Welcome Text and Description
         Text("Welcome", fontSize = 20.sp, fontWeight = FontWeight.Bold, color = Color.Black)
