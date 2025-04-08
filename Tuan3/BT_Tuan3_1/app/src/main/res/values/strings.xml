@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">BT_Tuan3_1</string>
+    <string name="logo_description">Logo</string>
+    <string name="title_text">Jetpack Compose</string>
+    <string name="description_text">Jetpack Compose is a modern UI toolkit for building native Android applications using a declarative programming approach.</string>
+    <string name="button_text">I\'m ready</string>
+    <string name="back_button_description">Back</string>
+    <string name="text_detail_title">Text Detail</string>
+
+    <!-- Add missing strings -->
+    <string name="ui_components_list">UI Components List</string> <!-- This was missing -->
+    <string name="text_title">Text Title</string> <!-- This was missing -->
+
+    <!-- Display Section -->
+    <string name="display_title">Display</string>
+    <string name="display_text">Displays text</string>
+
+    <!-- Image Section -->
+    <string name="image_title">Image</string>
+    <string name="image_text">Displays an image</string>
+
+    <!-- Input Section -->
+    <string name="input_title">Input</string>
+    <string name="textfield_title">TextField</string>
+    <string name="textfield_text">Input field for text</string>
+    <string name="passwordfield_title">PasswordField</string>
+    <string name="passwordfield_text">Input field for passwords</string>
+
+    <!-- Layout Section -->
+    <string name="layout_title">Layout</string>
+    <string name="column_title">Column</string>
+    <string name="column_text">Arranges elements vertically</string>
+    <string name="row_title">Row</string>
+    <string name="row_text">Arranges elements horizontally</string>
+    <string name="image_description">Nội dung</string>
+
+</resources>

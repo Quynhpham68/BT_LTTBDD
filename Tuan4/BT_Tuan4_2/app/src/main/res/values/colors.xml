@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#007AFF</color>
+    <color name="gray">#757575</color>
+    <color name="light_blue">#ADD8E6</color>
+    <color name="light_red">#F8D7DA</color>
+    <color name="light_green">#D4EDDA</color>
+    <color name="task_in_progress">#F8D7DA</color>  <!-- Màu hồng -->
+    <color name="task_pending_doctor">#F7F6D2</color>  <!-- Màu vàng -->
+    <color name="task_pending_meeting">#D6F0FF</color>  <!-- Màu xanh -->
+
+</resources>
